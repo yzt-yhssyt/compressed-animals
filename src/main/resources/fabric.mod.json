@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "compressed_animals",
+	"version": "${version}",
+	"name": "压缩动物",
+	"description": "Tier 1, 2 and 3 compressed cows, sheep, pigs and chickens with randomized health, multiplied drops and compressed-food breeding, plus a rare compressed iron golem summoned by villagers.",
+	"authors": [
+		"yzt"
+	],
+	"license": "MIT",
+	"icon": "assets/compressed_animals/icon.png",
+	"environment": "*",
+	"mixins": [
+		"compressed_animals.mixins.json"
+	],
+	"entrypoints": {
+		"main": [
+			"com.compressedanimals.CompressedAnimals"
+		],
+		"client": [
+			"com.compressedanimals.client.CompressedAnimalsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"compressed_foods": ">=1.0.0"
+	},
+	"contact": {
+		"homepage": "https://github.com/yzt-yhssyt/compressed-animals",
+		"sources": "https://github.com/yzt-yhssyt/compressed-animals",
+		"issues": "https://github.com/yzt-yhssyt/compressed-animals/issues"
+	}
+}

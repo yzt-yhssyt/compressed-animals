@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.compressedanimals.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EntityAttributeClampMixin",
+		"MobEntityAccessor",
+		"SpawnHelperMixin",
+		"SpawnRestrictionAccessor",
+		"Tier3AttackReachMixin",
+		"VillagerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
